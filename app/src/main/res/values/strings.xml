@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Personal Trainer Mobile</string>
+    <string name="exercises_screen">Exercises</string>
+    <string name="training_screen">Training Plan</string>
+    <string name="instructor_screen">Instructor</string>
+    <string name="diet_screen">Diet</string>
+    <string name="training_menu">Training Menu</string>
+    <string name="new_training">New Training</string>
+    <string name="load_training">Load Training</string>
+    <string name="fitness_level_screen">Fitness Level</string>
+    <string name="select_gender_screen">Gender Select</string>
+    <string name="goals_screen">Goal Select</string>
+    <string name="Men_fat_loss_fundamental_stack_screen">Men Fat Loss Fundamental Stack</string>
+    <string name="Men_fat_loss_progressive_stack_screen">Men Fat Loss Progressive Stack</string>
+    <string name="Men_fat_loss_advanced_stack_screen">Men Fat Loss Advanced Stack</string>
+    <string name="Men_muscle_growth_fundamental_stack_screen">Men Muscle Growth Fundamental Stack</string>
+    <string name="Men_muscle_growth_progressive_stack_screen">Men Muscle Growth Progressive Stack</string>
+    <string name="Men_muscle_growth_advanced_stack_screen">Men Muscle Growth Advanced Stack</string>
+    <string name="Men_supplements_stacks">Men Supplements</string>
+    <string name="Women_fat_loss_fundamental_stack_screen">Women Fat Loss Fundamental Stack</string>
+    <string name="Women_fat_loss_progressive_stack_screen">Women Fat Loss Progressive Stack</string>
+    <string name="Women_fat_loss_advanced_stack_screen">Women Fat Loss Advanced Stack</string>
+    <string name="Women_muscle_growth_fundamental_stack_screen">Women Muscle Growth Fundamental Stack</string>
+    <string name="Women_muscle_growth_progressive_stack_screen">Women Muscle Growth Progressive Stack</string>
+    <string name="Women_muscle_growth_advanced_stack_screen">Women Muscle Growth Advanced Stack</string>
+    <string name="Women_supplements_stacks">Women Supplements</string>
+    <string name="Men_fat_loss_beginner_level_screen">Fat Loss Beginner</string>
+    <string name="Men_fat_loss_intermediate_level_screen">Fat Loss Intermediate</string>
+    <string name="Men_fat_loss_advanced_level_screen">Fat Loss Advanced</string>
+    <string name="Men_muscle_growth_beginner_level_screen">Muscle Growth Beginner</string>
+    <string name="Men_muscle_growth_intermediate_level_screen">Muscle Growth Intermediate</string>
+    <string name="Men_muscle_growth_advanced_level_screen">Muscle Growth Advanced</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

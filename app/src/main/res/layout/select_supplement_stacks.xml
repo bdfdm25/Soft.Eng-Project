@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#F8F8FF"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/fundamental_button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="101dp"
+        android:background="@drawable/fundamental"/>
+
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/progressive_button"
+        android:layout_marginTop="69dp"
+        android:layout_below="@+id/fundamental_button"
+        android:layout_alignLeft="@+id/fundamental_button"
+        android:layout_alignStart="@+id/fundamental_button"
+        android:background="@drawable/progressive"/>
+
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/advanced_button"
+        android:layout_marginTop="71dp"
+        android:layout_below="@+id/progressive_button"
+        android:layout_alignLeft="@+id/progressive_button"
+        android:layout_alignStart="@+id/progressive_button"
+        android:background="@drawable/progressive"/>
+
+
+
+
+
+
+
+</RelativeLayout>
+    <!--style="?android:attr/buttonStyleSmall"-->

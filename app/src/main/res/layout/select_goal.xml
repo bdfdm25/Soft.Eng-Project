@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8FF">
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/fat_low_button"
+        android:background="@mipmap/ic_fatloss"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/muscle_button"
+        android:layout_toStartOf="@+id/muscle_button" />
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/muscle_button"
+        android:background="@mipmap/ic_muscle_building"
+        android:layout_marginRight="43dp"
+        android:layout_marginEnd="43dp"
+        android:layout_alignTop="@+id/fat_low_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/imageView"
+        android:background="@mipmap/ic_goal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp" />
+
+</RelativeLayout>

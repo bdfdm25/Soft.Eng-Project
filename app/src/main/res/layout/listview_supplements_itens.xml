@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8FF">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/supplement_icon"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/med1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textStyle="bold"
+        android:textSize="13dp"
+        android:id="@+id/label_supplement"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignTop="@+id/supplement_icon"
+        android:layout_toRightOf="@+id/supplement_icon"
+        android:layout_toEndOf="@+id/supplement_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kind: "
+        android:textStyle="bold"
+        android:textSize="13dp"
+        android:id="@+id/label_kind"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/label_supplement"
+        android:layout_toRightOf="@+id/supplement_icon"
+        android:layout_toEndOf="@+id/supplement_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="13dp"
+        android:id="@+id/supplement_name"
+        android:layout_marginLeft="150dp"
+        android:layout_alignTop="@+id/label_supplement"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="13dp"
+        android:id="@+id/supplement_kind"
+        android:layout_marginLeft="150dp"
+        android:layout_alignTop="@+id/label_kind" />
+
+
+</RelativeLayout>

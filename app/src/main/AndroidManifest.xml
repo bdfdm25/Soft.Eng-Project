@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bdfh7.edu.umkc.personaltrainermobile">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/my_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/action_settings"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".Training_Menu"
+            android:label="@string/training_menu"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".Insert_New_Training"
+            android:label="@string/new_training"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".Load_Trainings"
+            android:label="@string/load_training"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".exercises.ExercisesActivity"
+            android:label="@string/exercises_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".exercises.Exercises_Groups_Chest"
+            android:label="@string/exercises_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".exercises.Exercises_Groups_Back"
+            android:label="@string/exercises_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".exercises.Exercises_Group_Biceps"
+            android:label="@string/exercises_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".exercises.Exercises_Group_Neck"
+            android:label="@string/exercises_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".exercises.Exercises_Groups_Abd"
+            android:label="@string/exercises_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".exercises.Exercises_Groups_Legs"
+            android:label="@string/exercises_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".exercises.Exercises_Groups_Shoulders"
+            android:label="@string/exercises_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".InstructorActivity"
+            android:label="@string/instructor_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".DietActivity"
+            android:label="@string/diet_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_training.Men_SelectFitnessLevel_TrainingSchedule"
+            android:label="@string/fitness_level_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_training.male_beginner_level.Men_FatLoss_Training_BeginnerLevel_Weeks"
+            android:label="@string/Men_fat_loss_beginner_level_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_training.male_beginner_level.Men_FatLoss_Training_BeginnerLevel_Days"
+            android:label="@string/Men_fat_loss_beginner_level_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_training.male_intermediate_level.Men_FatLoss_Training_IntermediateLevel_Weeks"
+            android:label="@string/Men_fat_loss_intermediate_level_screen"></activity>
+
+        <activity
+            android:name=".male_training.male_intermediate_level.Men_FatLoss_Training_IntermediateLevel_Days"
+            android:label="@string/Men_fat_loss_intermediate_level_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_training.male_advanced_level.Men_FatLoss_Training_AdvancedLevel_Weeks"
+            android:label="@string/Men_fat_loss_advanced_level_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_training.male_advanced_level.Men_FatLoss_Training_AdvancedLevel_Days"
+            android:label="@string/Men_fat_loss_advanced_level_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_training.male_beginner_level.Men_MuscleGrowth_Training_BeginnerLevel_Days"
+            android:label="@string/Men_muscle_growth_beginner_level_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_training.male_beginner_level.Men_MuscleGrowth_Training_BeginnerLevel_Weeks"
+            android:label="@string/Men_muscle_growth_beginner_level_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_training.male_intermediate_level.Men_MuscleGrowth_Training_IntermediateLevel_Days"
+            android:label="@string/Men_muscle_growth_intermediate_level_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_training.male_intermediate_level.Men_MuscleGrowth_Training_IntermediateLevel_Weeks"
+            android:label="@string/Men_muscle_growth_intermediate_level_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_training.male_advanced_level.Men_MuscleGrowth_Training_AdvancedLevel_Days"
+            android:label="@string/Men_muscle_growth_advanced_level_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_training.male_advanced_level.Men_MuscleGrowth_Training_AdvancedLevel_Weeks"
+            android:label="@string/Men_muscle_growth_advanced_level_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".female_training.Women_SelectFitnessLevel_TrainingSchedule"
+            android:label="@string/fitness_level_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".female_training.female_advanced_level.Women_FatLoss_Training_AdvancedLevel_Weeks"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".female_training.female_advanced_level.Women_FatLoss_Training_AdvancedLevel_Days"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity
+            android:name=".female_training.female_advanced_level.Women_MuscleGrowth_Training_AdvancedLevel_Days"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".female_training.female_advanced_level.Women_MuscleGrowth_Training_AdvancedLevel_Weeks"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".Select_Gender"
+            android:label="@string/select_gender_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".Select_Goal"
+            android:label="@string/goals_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_supplements.male_fundamental_stack.Men_FatLoss_Supplements_FundamentalStack"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_supplements.male_progressive_stack.Men_FatLoss_Supplements_ProgressiveStack"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_supplements.male_advanced_stack.Men_FatLoss_Supplements_AdvancedStack"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_supplements.male_fundamental_stack.Men_MuscleGrowth_Supplements_FundamentalStack"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_supplements.male_progressive_stack.Men_MuscleGrowth_Supplements_ProgressiveStack"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_supplements.male_advanced_stack.Men_MuscleGrowth_Supplements_AdvancedStack"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".male_supplements.Men_Supplements_Stacks"
+            android:label="@string/Men_supplements_stacks"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".female_supplements.female_fundamental_stack.Women_FatLoss_Supplements_FundamentalStack"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".female_supplements.female_progressive_stack.Women_FatLoss_Supplements_ProgressiveStack"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".female_supplements.female_advanced_stack.Women_FatLoss_Supplements_AdvancedStack"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".female_supplements.female_fundamental_stack.Women_MuscleGrowth_Supplements_FundamentalStack"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".female_supplements.female_progressive_stack.Women_MuscleGrowth_Supplements_ProgressiveStack"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".female_supplements.female_advanced_stack.Women_MuscleGrowth_Supplements_AdvancedStack"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".female_supplements.Women_Supplements_Stacks"
+            android:label="@string/Women_supplements_stacks"
+            android:screenOrientation="portrait"></activity>
+
+
+    </application>
+
+</manifest>
